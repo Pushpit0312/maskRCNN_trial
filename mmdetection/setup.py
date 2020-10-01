@@ -23,7 +23,7 @@ PATCH = ''
 SUFFIX = 'rc0'
 SHORT_VERSION = '{}.{}.{}{}'.format(MAJOR, MINOR, PATCH, SUFFIX)
 
-version_file = 'mmdet/version.py'
+version_file = 'maskRCNN_trial/mmdetection/mmdet/version.py'
 
 
 def get_git_hash():
